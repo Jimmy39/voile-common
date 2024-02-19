@@ -8,4 +8,4 @@
 
 #include "voile_common.h"
 
-voile_status_t voile_status = success;
+voile_errorno_t voile_status = success;
