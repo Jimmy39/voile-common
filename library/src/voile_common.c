@@ -1,7 +1,7 @@
 /**
  * @file voile_common.c
  * @author Jimmy Wang
- * @brief Common denpence for voile library
+ * @brief Common part for voile library
  * @version alpha-20240215
  *
  */
