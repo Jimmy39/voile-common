@@ -5,10 +5,10 @@
   - Provide some macro definitions and typedefs to make the voile library compatible with different processors and compilers.
   - Include devicelist.h to configure the voile library. 
   
-  To use, include voile_common.h
+  To use, include voile_common.h, and creat voile_conf.h.
 
   @author Jimmy Wang
-  @version alpha-20240222
+  @version alpha-20240226
  
   @license MIT License
 
@@ -36,12 +36,7 @@
 #ifndef __VOILE_COMMON_H__
 #define __VOILE_COMMON_H__
 
-/**
-  @brief include 'devicelist.h' to configure the voile library
-  */
-#include "devicelist.h"
-#define doxygen_include_devicelist_h
-#undef doxygen_include_devicelist_h
+#include "voile_conf.h"
 
 /**
   @brief If the Keil CX51 compiler is used, then manually typedef. Otherwise, use 'stdint.h'.
