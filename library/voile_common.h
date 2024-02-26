@@ -66,14 +66,4 @@ typedef unsigned short int uint16_t;
 #define bool uint8_t
 #endif  // __CX51__
 
-/**
-  @brief Variables you want to locate in ROM
-  If the Keil compiler is used, then it will be defined as code
- */
-#ifndef __CX51__
-#define inROM const
-#else
-#define inROM code
-#endif  // __CX51__
-
 #endif  // !__VOILE_COMMON_H__
