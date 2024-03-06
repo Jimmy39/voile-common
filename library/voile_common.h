@@ -38,6 +38,8 @@
 
 #include "voile_conf.h"
 
+#include <stddef.h>
+
 /**
   @brief If the Keil CX51 compiler is used, then manually typedef. Otherwise, use 'stdint.h'.
   @todo stdint for KEil CX51
